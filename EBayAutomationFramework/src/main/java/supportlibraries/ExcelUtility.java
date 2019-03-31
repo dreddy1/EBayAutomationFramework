@@ -16,7 +16,7 @@ public class ExcelUtility {
     List testData, cellData;
 
     /**
-     * this method retrieve test data from given file
+     * This method retrieve test data from given file
      * 
      * @param fileName
      *            - name of the test data file

@@ -21,7 +21,7 @@ import org.testng.annotations.Parameters;
 import io.appium.java_client.android.AndroidDriver;
 
 /**
- * contains all the methods to create a new session and destroy the session
+ * Contains all the methods to create a new session and destroy the session
  * after the test(s) execution is over. Each test extends this class.
  */
 public class Driver {
@@ -38,7 +38,7 @@ public class Driver {
     String OS;
 
     /**
-     * this method starts Appium server. Calls startAppiumServer method to start
+     * This method starts Appium server. Calls startAppiumServer method to start
      * the session depending upon your OS.
      * 
      * @throws Exception
@@ -50,7 +50,7 @@ public class Driver {
     }
 
     /**
-     * this method stops Appium server.Calls stopAppiumServer method to stop
+     * This method stops Appium server.Calls stopAppiumServer method to stop
      * session depending upon your OS.
      * 
      * @throws Exception
@@ -62,7 +62,7 @@ public class Driver {
     }
 
     /**
-     * this method creates the driver depending upon the passed parameter
+     * This method creates the driver depending upon the passed parameter
      * (android or iOS) and loads the properties files (config and test data
      * properties files).
      * 
@@ -102,7 +102,7 @@ public class Driver {
     }
 
     /**
-     * this method quit the driver after the execution of test(s)
+     * This method quit the driver after the execution of test(s)
      */
     @AfterMethod
     public void tearDown() {
@@ -111,7 +111,7 @@ public class Driver {
     }
 
     /**
-     * this method creates the android driver
+     * This method creates the android driver
      * 
      * @param buildPath
      *            - path to pick the location of the app
@@ -140,7 +140,7 @@ public class Driver {
     }
 
     /**
-     * this method creates the iOS driver
+     * This method creates the iOS driver
      * 
      * @param buildPath-
      *            path to pick the location of the app
@@ -154,7 +154,7 @@ public class Driver {
     }
 
     /**
-     * this method loads properties files config and file having test data.
+     * This method loads properties files config and file having test data.
      * 
      * @param platform
      *            android or ios, to load specific test data file.
@@ -182,7 +182,7 @@ public class Driver {
     }
 
     /**
-     * this method returns the app path file location.
+     * This method returns the app path file location.
      * 
      * @param invokeDriver
      *            android or ios, to load specific test data file.

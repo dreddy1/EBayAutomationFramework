@@ -13,7 +13,7 @@ import supportlibraries.Driver;
 import supportlibraries.ExcelUtility;
 
 /**
- * automated test to verify login to android/iOS app.
+ * Automated test to verify login to android/iOS app.
  */
 public class eBayPlaceAnOrder extends Driver {
 
@@ -22,7 +22,7 @@ public class eBayPlaceAnOrder extends Driver {
     List testData;
 
     /**
-     * this method instantiate required helpers depending on the
+     * This method instantiate required helpers depending on the
      * platform(android or iOS)
      * 
      * @param invokeDriver
@@ -33,14 +33,14 @@ public class eBayPlaceAnOrder extends Driver {
     public void instantiateHelpers(String invokeDriver) {
 
          // Getting test data required from external test data file.
-        // this can be extended to repeat the test based on the number of row data provided.
+        // This can be extended to repeat the test based on the number of row data provided.
         ExcelUtility excelUtility = new ExcelUtility();
         testData = excelUtility.getTestData(file.getAbsoluteFile() + "\\src\\main\\resources\\testData\\eBayPlaceAnOrder.xlsx");
         productDetails = ((List) testData.get(1)).get(1).toString();
     }
 
     /**
-     * method to place an order
+     * Method to place an order
      * 
      * @throws InterruptedException
      *             Thrown when a thread is waiting, sleeping, or otherwise

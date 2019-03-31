@@ -18,7 +18,7 @@ public class GenericMethods extends Driver {
 
     WebDriver driver = null;
 
-    // common timeout for all tests can be set here
+    // Common timeout for all tests can be set here
     // Timeout can be implemented even in scenario level - to be done
     public final int timeOut = Integer.getInteger(lobConfigProp.getProperty("timeOut"));
 
@@ -27,7 +27,7 @@ public class GenericMethods extends Driver {
     }
 
     /**
-     * method verify whether element is present on screen
+     * Method verify whether element is present on screen
      *
      * @param targetElement
      *            element to be present
@@ -43,7 +43,7 @@ public class GenericMethods extends Driver {
     }
 
     /**
-     * method to wait for an element to be visible
+     * Method to wait for an element to be visible
      *
      * @param targetElement
      *            element to be visible
@@ -66,7 +66,7 @@ public class GenericMethods extends Driver {
     }
 
     /**
-     * method to wait for an element to be visible
+     * Method to wait for an element to be visible
      *
      * @param targetElement
      *            element to be visible
@@ -86,7 +86,7 @@ public class GenericMethods extends Driver {
     }
 
     /**
-     * method to wait for an element until it is invisible
+     * Method to wait for an element until it is invisible
      *
      * @param targetElement
      *            element to be invisible
@@ -108,7 +108,7 @@ public class GenericMethods extends Driver {
     }
 
     /**
-     * method to tap on the screen on provided coordinates
+     * Method to tap on the screen on provided coordinates
      *
      * @param xPosition
      *            x coordinate to be tapped
@@ -124,7 +124,7 @@ public class GenericMethods extends Driver {
     }
 
     /**
-     * method to find an element
+     * Method to find an element
      *
      * @param locator
      *            element to be found
@@ -142,7 +142,7 @@ public class GenericMethods extends Driver {
     }
 
     /**
-     * method to find all the elements of specific locator
+     * Method to find all the elements of specific locator
      *
      * @param locator
      *            element to be found
@@ -161,7 +161,7 @@ public class GenericMethods extends Driver {
     }
 
     /**
-     * method to get message test of alert
+     * Method to get message test of alert
      *
      * @return message text which is displayed
      */
@@ -177,7 +177,7 @@ public class GenericMethods extends Driver {
     }
 
     /**
-     * method to verify if alert is present
+     * Method to verify if alert is present
      *
      * @return returns true if alert is present else false
      */
@@ -194,7 +194,7 @@ public class GenericMethods extends Driver {
     }
 
     /**
-     * method to Accept Alert if alert is present
+     * Method to Accept Alert if alert is present
      */
 
     public void acceptAlert() {
@@ -204,7 +204,7 @@ public class GenericMethods extends Driver {
     }
 
     /**
-     * method to Dismiss Alert if alert is present
+     * Method to Dismiss Alert if alert is present
      */
 
     public void dismissAlert() {
@@ -214,7 +214,7 @@ public class GenericMethods extends Driver {
     }
 
     /**
-     * method to swipe on the screen on provided coordinates
+     * Method to swipe on the screen on provided coordinates
      *
      * @param startX
      *            - start X coordinate to be tapped
@@ -245,7 +245,7 @@ public class GenericMethods extends Driver {
     }
 
     /**
-     * method to scroll down on screen from java-client 6
+     * Method to scroll down on screen from java-client 6
      *
      * @param swipeTimes
      *            number of times swipe operation should work
@@ -265,7 +265,7 @@ public class GenericMethods extends Driver {
     }
 
     /**
-     * method to scroll up on screen from java-client 6
+     * Method to scroll up on screen from java-client 6
      *
      * @param swipeTimes
      *            number of times swipe operation should work
@@ -285,7 +285,7 @@ public class GenericMethods extends Driver {
     }
 
     /**
-     * method to capture the screenshot
+     * Method to capture the screenshot
      */
     public static void captureScreenshot(WebDriver driver, String screenName, String status) throws IOException, InterruptedException {
         // To be done

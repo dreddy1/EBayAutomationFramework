@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import supportlibraries.GenericMethods;
 
 /**
- * contains all the locators present on the eBay Login Screen
+ * Contains all the locators present on the eBay Login Screen
  */
 public class EBayLoginScreen extends GenericMethods {
 

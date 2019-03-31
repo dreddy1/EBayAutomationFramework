@@ -8,7 +8,7 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.PatternLayout;
 
 /**
- * contains all the methods to show the logs on console and save the logs in
+ * Contains all the methods to show the logs on console and save the logs in
  * LogFile.txt of each run.
  * 
  */
@@ -30,7 +30,7 @@ public class Log {
     }
 
     /**
-     * method to display errors in log.
+     * Method to display errors in log.
      * 
      * @param className
      *            name of class in which error occurred.
@@ -49,7 +49,7 @@ public class Log {
     }
 
     /**
-     * method to display information in logs
+     * Method to display information in logs
      * 
      * @param message
      *            message to be displayed

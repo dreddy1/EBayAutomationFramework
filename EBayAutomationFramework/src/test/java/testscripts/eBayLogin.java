@@ -13,7 +13,7 @@ import supportlibraries.Driver;
 import supportlibraries.ExcelUtility;
 
 /**
- * automated test to verify login to android/iOS app.
+ * Automated test to verify login to android/iOS app.
  */
 public class eBayLogin extends Driver {
 
@@ -23,7 +23,7 @@ public class eBayLogin extends Driver {
     List testData;
 
     /**
-     * this method instantiate required helpers depending on the
+     * This method instantiate required helpers depending on the
      * platform(android or iOS)
      * 
      * @param invokeDriver
@@ -43,7 +43,7 @@ public class eBayLogin extends Driver {
     }
 
     /**
-     * method to verify login
+     * Method to verify login
      * 
      * @throws InterruptedException
      *             Thrown when a thread is waiting, sleeping, or otherwise

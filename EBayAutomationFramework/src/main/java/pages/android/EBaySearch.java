@@ -10,7 +10,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
 /**
- * contains all methods to login on android app
+ * Contains all methods to login on android app
  */
 public class EBaySearch {
 
@@ -23,7 +23,7 @@ public class EBaySearch {
     }
 
     /**
-     * method to search for item
+     * Method to search for item
      *
      * @param searchString
      *            - string to be searched
@@ -83,7 +83,7 @@ public class EBaySearch {
     }
 
     /**
-     * method to add item to cart
+     * Method to add item to cart
      */
     public void addItemToCart() throws InterruptedException {
 
@@ -104,7 +104,7 @@ public class EBaySearch {
     }
 
     /**
-     * method to search for item
+     * Method to search for item
      *
      * @param productDescription
      *            - product description to be validated
@@ -140,17 +140,17 @@ public class EBaySearch {
     }
 
     /**
-     * method to place an order
+     * Method to place an order
      */
     public void placeAnOrder() throws InterruptedException {
         
         Log.info("Step - Place an Order");
         try {
-            // click on Continue button
+            // Click on Continue button
             eBaySearchScreen.click(eBaySearchScreen.continueButton);
-            // select an earlier saved credit card
+            // Select an earlier saved credit card
             eBaySearchScreen.click(eBaySearchScreen.selectExistingCard);
-            // click on Pay button to make payment
+            // Click on Pay button to make payment
             eBaySearchScreen.click(eBaySearchScreen.pay);
         }
         catch (Exception e) {
@@ -159,28 +159,28 @@ public class EBaySearch {
     }
 
     /**
-     * method to get product name
+     * Method to get product name
      */
     public String getProductName() {
         return productName;
     }
 
     /**
-     * method to set product name
+     * Method to set product name
      */
     public void setProductName(String productName) {
         this.productName = productName;
     }
 
     /**
-     * method to get product price
+     * Method to get product price
      */
     public String getProductPrice() {
         return productPrice;
     }
 
     /**
-     * method to set product price
+     * Method to set product price
      */
     public void setProductPrice(String productPrice) {
         this.productPrice = productPrice;

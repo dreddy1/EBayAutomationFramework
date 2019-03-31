@@ -23,7 +23,7 @@ public class Retry implements IRetryAnalyzer {
     }
 
     /**
-     * method to return the status name.
+     * Method to return the status name.
      * 
      * @param status
      *            status in integer 1 or 2 or 3.

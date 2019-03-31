@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 /**
- * contains all methods to login on android app
+ * Contains all methods to login on android app
  */
 public class EBayLoginCore {
 
@@ -18,7 +18,7 @@ public class EBayLoginCore {
     }
 
     /**
-     * method to login to android app
+     * Method to login to android app
      *
      * @param userName
      *            emailId to be used for login

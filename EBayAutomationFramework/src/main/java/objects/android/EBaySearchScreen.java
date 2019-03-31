@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import supportlibraries.GenericMethods;
 
 /**
- * contains all the locators present on the android app
+ * Contains all the locators present on the android app
  */
 public class EBaySearchScreen extends GenericMethods {
 
@@ -27,7 +27,7 @@ public class EBaySearchScreen extends GenericMethods {
     public By cartProductPrice = By.id("com.ebay.mobile:id/item_price");
     public By cartRemoveProduct = By.id("com.ebay.mobile:id/remove_from_cart_button");
 
-    // android.widget.Button
+    // Android widget Button
     public By removeConfirmation = By.id("android:id/button1");
 
     public By tvImage = By.xpath("//*[@text = 'LG 65UJ6300 65-inch UHD 4K Smart LED TV']");
@@ -37,7 +37,7 @@ public class EBaySearchScreen extends GenericMethods {
     public By cartTvText = By.xpath("//*[@text = 'LG 65UJ6300 65-inch UHD 4K Smart LED TV']");
     public By cartTvPrice = By.id("com.ebay.mobile:id/item_price");
     
-    //payment completion
+    //Payment completion
     public By continueButton = By.id("Continue");
     public By selectExistingCard = By.id("<radio_btn/>1");
     public By pay = By.id("Pay");
